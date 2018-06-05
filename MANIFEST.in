@@ -1,0 +1,8 @@
+# MANIFEST.in
+graft calculator
+prune tests
+global-exclude .
+include *.txt
+exclude requirements.txt
+recursive-include examples *
+recursive-include Doc *

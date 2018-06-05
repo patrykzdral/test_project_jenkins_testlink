@@ -1,0 +1,2 @@
+TestLink-API-Python-client==0.8.0
+googlemaps==2.5.1

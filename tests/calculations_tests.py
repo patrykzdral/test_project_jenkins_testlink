@@ -1,5 +1,6 @@
 import time
 import unittest
+import xmlrunner
 from datetime import datetime
 
 from calculator import exception
@@ -125,4 +126,4 @@ class TestLibrary(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))

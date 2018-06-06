@@ -8,7 +8,7 @@ from unittest import (
     TestLoader,
     TextTestResult,
     TextTestRunner)
-from tests.calculations_tests import TestLibrary
+from tests import TestLibrary
 
 OK = 'ok'
 FAIL = 'fail'

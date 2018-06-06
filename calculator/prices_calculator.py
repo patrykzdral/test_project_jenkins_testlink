@@ -5,10 +5,10 @@ from datetime import datetime
 import googlemaps
 
 from calculator import exception
-from calculator.util.address import Address
-from calculator.util.calculator_result import \
+from calculator import Address
+from calculator import \
     CalculatorResult
-from calculator.util.reference_city import \
+from calculator import \
     ReferenceCity
 
 

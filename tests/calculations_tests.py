@@ -1,11 +1,10 @@
 import time
 import unittest
-import xmlrunner
 from datetime import datetime
 
 from calculator import exception
 from calculator.prices_calculator import PricesCalculator
-from calculator.util.address import Address
+from calculator import Address
 
 
 class TestLibrary(unittest.TestCase):
@@ -126,4 +125,5 @@ class TestLibrary(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    import xmlrunner
     unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))

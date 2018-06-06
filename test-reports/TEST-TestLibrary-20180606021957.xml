@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="TestLibrary-20180606021957" skipped="0" tests="5" time="0.001" timestamp="2018-06-06T02:19:57">
+	<testcase classname="TestLibrary" name="test_mismatch_building_type" time="0.000" timestamp="2018-06-06T02:19:57"/>
+	<testcase classname="TestLibrary" name="test_mismatch_market_type" time="0.000" timestamp="2018-06-06T02:19:57"/>
+	<testcase classname="TestLibrary" name="test_name_of_reference_city" time="0.000" timestamp="2018-06-06T02:19:57"/>
+	<testcase classname="TestLibrary" name="test_too_big_value_of_year" time="0.000" timestamp="2018-06-06T02:19:57"/>
+	<testcase classname="TestLibrary" name="test_too_small_value_of_year" time="0.000" timestamp="2018-06-06T02:19:57"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

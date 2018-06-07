@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/mrfarinq/Pulpit/PACKAGE_LAB/house_price_calculator_library/venv"
+set -gx VIRTUAL_ENV "/home/mrfarinq/Courses/test_project_jenkins_testlink/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

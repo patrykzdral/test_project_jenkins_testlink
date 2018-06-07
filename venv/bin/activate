@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/mrfarinq/Pulpit/PACKAGE_LAB/house_price_calculator_library/venv"
+VIRTUAL_ENV="/home/mrfarinq/Courses/test_project_jenkins_testlink/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

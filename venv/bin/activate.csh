@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/mrfarinq/Pulpit/PACKAGE_LAB/house_price_calculator_library/venv"
+setenv VIRTUAL_ENV "/home/mrfarinq/Courses/test_project_jenkins_testlink/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

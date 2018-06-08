@@ -263,12 +263,12 @@ class PricesCalculator(object):
         if construction_year > datetime_now_year:
             raise exception.ConstructionYearViolationException("rok budowy nie "
                                                                "moze byc wiekszy "
-                                                               "niż obecny", "")
+                                                               "niz obecny", "")
 
         if construction_year < 1900:
             raise exception.ConstructionYearViolationException("rok budowy nie "
                                                                "moze byc mniejszy "
-                                                               "niż 1900", "")
+                                                               "niz 1900", "")
 
         if construction_year == datetime_now_year:
             return 1.20

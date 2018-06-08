@@ -1,2 +1,2 @@
-TestLink-API-Python-client==0.8.0
 googlemaps==2.5.1
+xmlrunner==1.7.7

@@ -124,6 +124,16 @@ class TestLibrary(unittest.TestCase):
         self.assertEqual(calculator_result.nearest_reference_city.name, "Katowice")
 
 
+def suite():
+    test_suite = unittest.TestSuite()
+    test_suite.addTest(unittest.makeSuite(TestLibrary))
+    return test_suite
+
+
 if __name__ == '__main__':
     import xmlrunner
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
+
+    mainTestSuite = unittest.TestSuite()
+    mainTestSuite.addTest(suite())
+    testRunner = xmlrunner.XMLTestRunner(verbosity=2, output='test-reports')
+    testRunner.run(mainTestSuite)

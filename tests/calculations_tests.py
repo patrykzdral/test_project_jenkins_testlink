@@ -114,7 +114,7 @@ class TestLibrary(unittest.TestCase):
                                       " coordinates of an apartment located in the" \
                                       " city of Czestochowa"
         calc = PricesCalculator("AIzaSyBEmx5P3vl4ox4OU6nPgwTbU9k-_0Zm6Lo")
-        address = Address("", 50.8118195, 19.1203094)  # Częstochowa
+        address = Address("", 50.8118195, 19.1203094)
         calc.selected_address = address
 
         calculator_result = calc.calculate_house_price("blok", "pierwotny", "drewno",

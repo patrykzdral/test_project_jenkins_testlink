@@ -43,7 +43,7 @@ class TestLibrary(unittest.TestCase):
 
         with self.assertRaises(
                 exception.ConstructionYearViolationException) as context:
-            calc.calculate_house_price("blok", "pierwotny", "cegła",
+            calc.calculate_house_price("blok", "pierwotny", "drewno",
                                        1500, 25, False, False, False,
                                        True, True, False, False)
 
@@ -81,7 +81,7 @@ class TestLibrary(unittest.TestCase):
         building_type = "bloks"
         with self.assertRaises(
                 exception.FlatParameterMismatchException) as context:
-            calc.calculate_house_price(building_type, "pierwotny", "cegła",
+            calc.calculate_house_price(building_type, "pierwotny", "drewno",
                                        2000, 25, False, False, False,
                                        True, True, False, False)
 
@@ -100,7 +100,7 @@ class TestLibrary(unittest.TestCase):
         market_type = "pierwotFny"
         with self.assertRaises(
                 exception.FlatParameterMismatchException) as context:
-            calc.calculate_house_price("blok", market_type, "cegła",
+            calc.calculate_house_price("blok", market_type, "drewno",
                                        2000, 25, False, False, False,
                                        True, True, False, False)
 
@@ -117,7 +117,7 @@ class TestLibrary(unittest.TestCase):
         address = Address("", 50.8118195, 19.1203094)  # Częstochowa
         calc.selected_address = address
 
-        calculator_result = calc.calculate_house_price("blok", "pierwotny", "cegła",
+        calculator_result = calc.calculate_house_price("blok", "pierwotny", "drewno",
                                                        2000, 25, False, False, False,
                                                        True, True, False, False)
 

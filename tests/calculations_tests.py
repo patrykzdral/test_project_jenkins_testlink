@@ -48,7 +48,7 @@ class TestLibrary(unittest.TestCase):
                                        True, True, False, False)
 
         self.assertTrue(
-            'rok budowy nie może być mniejszy niż 1900' in str(context.exception))
+            'rok budowy nie moze byc mniejszy niż 1900' in str(context.exception))
 
     def test_too_big_value_of_year(self):
         self._formatted_method_name = "Test testing throwing the Construction" \
@@ -68,7 +68,7 @@ class TestLibrary(unittest.TestCase):
                                        True, True, False, False)
 
         self.assertTrue(
-            'rok budowy nie może być większy niż obecny' in str(context.exception))
+            'rok budowy nie moze byc wiekszy niż obecny' in str(context.exception))
 
     def test_mismatch_building_type(self):
         self._formatted_method_name = "Test testing throwing the Flat" \

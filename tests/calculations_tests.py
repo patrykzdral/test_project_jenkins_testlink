@@ -62,7 +62,7 @@ class TestLibrary(unittest.TestCase):
         datetime_now_year = datetime.today().year
         with self.assertRaises(
                 exception.ConstructionYearViolationException) as context:
-            calc.calculate_house_price("blok", "pierwotny", "cegła",
+            calc.calculate_house_price("blok", "pierwotny", "drewno",
                                        datetime_now_year + 1, 25, False, False,
                                        False,
                                        True, True, False, False)
